@@ -1,0 +1,11 @@
+GET http://www.flux.utah.edu:80/ HTTP/1.0\r\n\r\n
+
+GET http://www.flux.utah.edu/cs4480/simple.html/ HTTP/1.0\r\n\r\n
+
+GET http://localhost:2101/ HTTP/1.0\r\n\r\n
+
+GET http://localhost:2101/cs4480/simple.html/ HTTP/1.0\r\nHeader: custom2\r\n\r\n
+
+GET http://localhost/ HTTP/1.0\r\nHeader: custom2\r\n\r\n
+
+HEAD http://www.flux.utah.edu/cs4480/simple.html HTTP/1.0\r\n\r\n
