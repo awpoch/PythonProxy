@@ -4,7 +4,7 @@
   I created 3 python scripts, a client, a proxy, and a server. The client sends a request to the proxy, 
   which parses the request (sperating/organizing the host, file path, and headers) and sends it to the server. 
   The server then replies to the proxy with the requested file and the proxy forwards it back to the client. 
-  In this example the server is just a simple reflection server. However, any server can be used. tTe client
+  In this example the server is just a simple reflection server. However, any server can be used. The client
   just has to enter the address of the server it's trying to reach at the beginning.
 </p>
 
