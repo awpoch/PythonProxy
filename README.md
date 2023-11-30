@@ -8,7 +8,8 @@ just has to enter the address of the server it's trying to reach om initializati
 
 ### More Information:
 * Uses Python's Socket library
-* 
+* Creates a buffer to recieve all data
+* Parses HTTP headers
 
 ### Here's a Preview:
 ![PythonProxy](https://github.com/awpoch/PythonProxy/assets/143761409/5d862ac3-e830-45cf-a6cb-ccd38e5c9dc3)
